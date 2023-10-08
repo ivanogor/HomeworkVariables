@@ -1,15 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        var frog = 3.5;
-        System.out.println(frog);
+        var firstFighter = 78.2;
+        var secondFighter = 82.7;
 
-        frog = frog * 10;
-        System.out.println(frog);
-
-        frog = frog / 3.5;
-        System.out.println(frog);
-
-        frog = frog + 4;
-        System.out.println(frog);
+        System.out.println(firstFighter + secondFighter);
+        System.out.println(secondFighter - firstFighter);
     }
 }
